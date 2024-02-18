@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(#1D3461, #1F487E);
+}
+
+
+.scrollbar {
+  scrollbar-color: #1F487E #11151C;
+  scrollbar-width: thin;
+}
+
+.overflow-custom {
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 640px) {
+  .custom-sidebar {
+    transition: translate 0.5s;
+    translate: -120%
+  }
+  .showing {
+    translate: 0;
+  }
+}
+
+.noti-custom {
+  animation: noti 2s ease-out 1;
+}
+
+@keyframes noti {
+  0% {
+    background-color: #11151C;
+  }
+  50% {
+    background-color: #55a630;
+  }
+  100% {
+    background-color: #11151C;
+  }
+}
