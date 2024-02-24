@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this assignment is to develop a real-time chat application using React.js for the frontend and Node.js for the backend.
+The objective of this assignment is to develop a real-time chat application using React.js for the front end and Node.js for the backend.
 
 ## Tech Stack
 
