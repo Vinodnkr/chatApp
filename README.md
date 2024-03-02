@@ -9,7 +9,7 @@ The objective of this assignment is to develop a real-time chat application usin
 - React.js
 - Node.js
 - WebSocket (Socket.io)
-- MongoDB (or any other chosen database) use JsonWebToken
+- MongoDB (or any other chosen database) uses JsonWebToken
 - Git
 
 ## Completion Instructions
